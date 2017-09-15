@@ -2,14 +2,15 @@
 
 import React from 'react';
 import { AppRegistry } from 'react-native';
-import Header from './src/components/header.js';
+import Header from './src/components/Header.js';
 
 
 // create a component
 
 const App = () => {
   return (
-    <Header />
+    //(passing props) headerText can be named anything you'd like
+    <Header headerText={'Albums'} />
   );
 };
 
