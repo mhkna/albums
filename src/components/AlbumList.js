@@ -11,7 +11,7 @@ class AlbumList extends Component {
   }
 
   render() {
-console.log(this.state);
+    console.log(this.state);
 
     return (
         <View>
@@ -21,4 +21,4 @@ console.log(this.state);
   }
 }
 
-export default AlbumList
+export default AlbumList;
