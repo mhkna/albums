@@ -11,7 +11,7 @@ import AlbumList from './src/components/AlbumList.js';
 const App = () => {
   return (
     //add view tag because cant return two children in one function otherwise
-    <View>
+    <View style={{ flex: 1 }}>
       <Header headerText={'Albums'} />
       <AlbumList />
     </View>
